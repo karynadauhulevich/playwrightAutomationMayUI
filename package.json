@@ -1,0 +1,20 @@
+{
+  "name": "playwrightautomationuimay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "formPage": "npx playwright test form.spec.ts --headed",
+    "formPageHeadless": "npx playwright test form.spec.ts —headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
