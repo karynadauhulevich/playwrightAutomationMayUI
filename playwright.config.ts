@@ -28,7 +28,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
    // baseURL: 'https://www.lambdatest.com',
-    headless: false,
+    headless: true,
     //storageState: "./.auth/user.json",
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
