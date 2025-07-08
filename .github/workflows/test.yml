@@ -32,4 +32,4 @@ jobs:
 
       # 5. Run Playwright tests
       - name: Run tests
-        run: npx playwright test form_page.spec.ts
+        run: npx playwright test form.spec.ts
