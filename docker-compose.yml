@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  playwright_test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    environment:
+      - CI=true
+    command: ["npx", "playwright", "test", "--reporter=dot"]
